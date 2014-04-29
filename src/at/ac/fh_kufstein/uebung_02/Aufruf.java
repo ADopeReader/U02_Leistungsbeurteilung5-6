@@ -30,8 +30,8 @@ public class Aufruf
         short audi_reifen = 4; short audi_ps = 180; short audi_tueren = 5; short audi_airbags = 8;
         Auto Audi = new Auto (audi_reifen,Farbe.BLACK,audi_ps,audi_tueren,audi_airbags);
         
-        short titanic_reifen = 0; short titanic_ps = 51000; short titanic_tueren = 0; double titanic_tiefgang = 10.54; short titanic_schrauben = 3; double titanic_ladung = 100000;
-        Wasserfahrzeug titanic = new Wasserfahrzeug (titanic_reifen,Farbe.BLUE,titanic_ps,titanic_tueren,titanic_tiefgang,titanic_schrauben)
+        short titanic_reifen = 0; short titanic_ps = 5100; short titanic_tueren = 0; double titanic_tiefgang = 10.54; short titanic_schrauben = 3; double titanic_ladung = 100000;
+        Wasserfahrzeug titanic = new Wasserfahrzeug (titanic_reifen,Farbe.BLUE,titanic_ps,titanic_tueren,titanic_tiefgang,titanic_schrauben,titanic_ladung);
     }
     
 }

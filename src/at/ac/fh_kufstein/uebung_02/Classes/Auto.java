@@ -16,9 +16,9 @@ public class Auto extends Fahrzeug
     private boolean Klimaanlage;
     private short Airbags;
 
-    public Auto(short Reifen, enum Farbe, short PS, short Tueren, short Airbags)
+    public Auto(short Reifen, Farbe Colour, short PS, short Tueren, short Airbags)
     {
-        super(Reifen, Farbe, PS, Tueren);
+        super(Reifen, Colour, PS, Tueren);
         this.Klimaanlage = false;
         this.Airbags = Airbags;
     }
@@ -66,8 +66,7 @@ public class Auto extends Fahrzeug
     }
 
     
-    
-    toString(){}
+ 
     
 }
 
