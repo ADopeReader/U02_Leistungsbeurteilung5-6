@@ -10,7 +10,7 @@ package at.ac.fh_kufstein.uebung_02.Classes;
  *
  * @author paetow
  */
-public class Auto extends Fahrzeug
+public class Auto extends Fahrzeug implements Comparable <Auto>
 {
 
     private boolean Klimaanlage;
@@ -23,6 +23,15 @@ public class Auto extends Fahrzeug
         this.Airbags = Airbags;
     }
 
+    
+    @Override
+    public int compareTo (Auto Vergleichsauto)
+    {
+    if (this.getPS()>Vergleichsauto.getPS()){return 1;}
+    if (this.getPS()==Vergleichsauto.getPS()){return 0;}
+    else return -1;
+    }
+    
     void klimaanlageAn()
     {
         if (Klimaanlage == true)
