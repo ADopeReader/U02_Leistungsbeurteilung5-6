@@ -24,6 +24,7 @@ public class Fahrzeug
     public Fahrzeug(short Reifen, Farbe Colour, short PS, short Tueren)
     {
         this.Reifen = Reifen;
+        this.Colour = Farbe.BLACK;
         this.Colour = Colour;
         this.PS = PS;
         this.Tueren = Tueren;
@@ -116,12 +117,12 @@ public class Fahrzeug
         this.Geschwindigkeit = Geschwindigkeit;
     }
 
-    public static int getAnzahl()
+    public int getAnzahl()
     {
         return Anzahl;
     }
 
-    public static void setAnzahl(int Anzahl)
+    public void setAnzahl(int Anzahl)
     {
         Fahrzeug.Anzahl = Anzahl;
     }

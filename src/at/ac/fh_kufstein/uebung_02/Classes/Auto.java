@@ -66,7 +66,11 @@ public class Auto extends Fahrzeug
     }
 
     
- 
+    @Override
+ public String toString()
+ {
+ return "Mein Auto hat " + getPS() + " PS und fährt mit " + getGeschwindigkeit() + " km/h.";
+ };
     
 }
 

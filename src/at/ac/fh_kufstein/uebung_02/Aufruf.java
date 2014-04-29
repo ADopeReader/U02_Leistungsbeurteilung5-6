@@ -32,6 +32,12 @@ public class Aufruf
         
         short titanic_reifen = 0; short titanic_ps = 5100; short titanic_tueren = 0; double titanic_tiefgang = 10.54; short titanic_schrauben = 3; double titanic_ladung = 100000;
         Wasserfahrzeug titanic = new Wasserfahrzeug (titanic_reifen,Farbe.BLUE,titanic_ps,titanic_tueren,titanic_tiefgang,titanic_schrauben,titanic_ladung);
+        
+        String Ausgabe_1 = Bmw.toString();
+        String Ausgabe_2 = Audi.toString();
+        String Ausgabe_3 = titanic.toString();
+        
+        System.out.println(Ausgabe_1+ "\n" +Ausgabe_2+ "\n" + Ausgabe_3);
     }
     
 }

@@ -64,5 +64,11 @@ public class Wasserfahrzeug extends Fahrzeug
     {
         this.Ladung = Ladung;
     }
+    
+ @Override
+ public String toString()
+ {
+ return "Mein Wasserfahrzeug hat " + getPS() + " PS und einen Tiefgang von " + getTiefgang() + "m.";
+ };
 
 }
